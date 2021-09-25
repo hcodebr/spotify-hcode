@@ -10,6 +10,9 @@ const Wrap = styled.div`
     display: flex;
     flex-direction: column;
     .music-player {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         .player-controls {
             display: flex;
             align-items: center;
