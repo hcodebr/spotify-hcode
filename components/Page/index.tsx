@@ -7,8 +7,19 @@ const Page = styled.div`
   section {
     flex: 1;
     display: flex;
-    main {
+    article {
       flex: 1;
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(
+        180deg,
+        #212121 0%,
+        #212121 44.64%,
+        #121212 73.77%
+      );
+      main {
+        flex: 1;
+      }
     }
   }
 `;

@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
 import NavPanel from '../components/NavPanel';
 import Page from '../components/Page';
 
@@ -14,7 +15,10 @@ export default function Home() {
       <Page>
         <section>
           <NavPanel />
-          <main>content</main>
+          <article>
+            <Header />
+            <main></main>
+          </article>
         </section>
         <Footer />
       </Page>
